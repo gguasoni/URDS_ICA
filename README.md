@@ -1,5 +1,5 @@
 ## Task
-The focus of this assignment was to build an R workflow that ingests a gene-expression matrix and companion metadata plus a UUN-specific gene list, applies log-scaling and ID-to-LongName mapping, filters to the listed genes (deduplicated), and generates publication-ready visuals — two heatmaps (genes+samples clustered, and genes-only) and a boxplot comparing expression across treatment groups — complete with gene-type (XA/XB/XC) and treatment annotations, and brief notes explaining processing choices and figure interpretation.
+The focus of this assignment was to build an R workflow that ingests a gene-expression matrix and companion metadata plus a student-specific gene list, applies log-scaling and ID-to-LongName mapping, filters to the listed genes (deduplicated), and generates publication-ready visuals — two heatmaps (genes+samples clustered, and genes-only) and a boxplot comparing expression across treatment groups — complete with gene-type (XA/XB/XC) and treatment annotations, and brief notes explaining processing choices and figure interpretation.
 
 ## Script Details
 - URDS_ICA.rmd
