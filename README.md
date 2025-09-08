@@ -8,6 +8,8 @@ The focus of this assignment was to build an R workflow that ingests a gene-expr
     (ii) a heatmap clustering both genes and samples with annotated gene types and treatments
     (iii) a second heatmap clustering genes only; and (iv) a boxplot with jitter overlays summarizing expression distributions by treatment and gene type.
     Figure captions and a short limitations note (e.g., limited biological context and absence of an untreated control) are included for quick interpretation.
+- URDS_ICA_R_Script.R
+  - This script contains the same code as URDS_ICA.rmd but exludes the formatting features and un-tagged commentary included in the R markdown document. The R markdown document is included as it was mandatory to submit the assignment as an R markdown document, and any code exlcuded from said document would not have been considered in marking.
 
 ## How I would improve this code:
 - This code was written in an precise working directory, where I was in control of all the present files. However, to make the code more broadly usable to any given data set, I would set up a commandline interface that first asks the user to enter the names of the files they would like the code to use.
